@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Введите целое число: ");
+
+string strNum = Console.ReadLine();
+int number = Convert.ToInt32(strNum);
+
+int square = number*number;
+
+Console.WriteLine("квадрат числа " + number + " = " + square);
+Console.WriteLine($"квадрат числа{number} = {square}");
